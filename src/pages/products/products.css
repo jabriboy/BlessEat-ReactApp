@@ -1,0 +1,62 @@
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.produtos {
+  display: -ms-grid;
+  display: grid;
+  width: 80%;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.item {
+  margin-left: 10%;
+  margin-bottom: 3rem;
+  background: gray;
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+.item img {
+  margin: 1rem;
+  margin-left: 15%;
+  height: 100px;
+  width: 200px;
+}
+
+.item h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item p .preco {
+  font-weight: bolder;
+}
+
+.item button {
+  background: #4f4f4f;
+  margin: .5rem;
+  margin-left: 10%;
+}
+/*# sourceMappingURL=products.css.map */
